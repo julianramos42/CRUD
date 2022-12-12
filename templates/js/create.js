@@ -30,3 +30,10 @@ function guardar() {
             console.error(err);
         })
 }
+
+function resetear(){
+    document.getElementById('txtNombre').value = ""
+    document.getElementById('txtPrecio').value = ""
+    document.getElementById('txtDescripcion').value = ""
+    document.getElementById('txtImg').value = ""
+}

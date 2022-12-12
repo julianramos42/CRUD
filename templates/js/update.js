@@ -40,7 +40,7 @@ function modificar() {
         .then(function () {
             console.log("modificado")
             alert("Producto modificado")
-            //window.location.href = "http://127.0.0.1:5500/templates/index.html";
+            window.location.href = "https://julianramos42.github.io/CRUD/index.html";
             // Handle response we get from the API
         })
         .catch(err => {

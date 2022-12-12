@@ -19,7 +19,7 @@
     <main>
         <div class="container">
             <h1>Nuevo Producto</h1>
-            <form>
+            <form id="formulario">
                 <div>
                     <label for="txtNombre">Nombre</label>
                     <input type="text" class="form-control" name="txtNombre" id="txtNombre" value="-"><br>
@@ -34,10 +34,11 @@
                 </div>
                 <div>
                     <label for="txtImg">Imagen URL</label>
-                    <input type="text" class="form-control" name="txtImg" id="txtImg" value="-"> <br>
+                    <input type="text" class="form-control" name="txtImg" id="txtImg" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwPXheT-7fySBk0hyI-CP-9lzp9hISnylfWg&usqp=CAU"> <br>
                 </div>
                 <button type="button" class="button" onclick="guardar()">Guardar</button>
-                <button type="button" class="button" style="margin-left:15px"><a href="../index.html" style="text-decoration: none;color:#efefef;">Inicio</a></button>
+                <button type="button" class="button" style="margin-left:15px; background-color: #ff0000;"><a href="../index.html" style="text-decoration: none;color:#efefef;">Inicio</a></button>
+                <button type="button" class="button"style="margin-left:15px" onclick="resetear()">Reiniciar</button>
             </form>
         </div>
     </main>

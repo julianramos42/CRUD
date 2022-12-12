@@ -22,7 +22,7 @@ if (document.getElementById("app")) {
                     })
             },
             eliminar(producto) {
-                valida = prompt('Estas seguro de querer borrar este producto? Digita "SI"')
+                valida = prompt('Estas seguro de querer borrar este producto? Escriba "SI" o "si"')
                 if (valida == "SI" || valida == "si") {
                     const url = 'https://julianete.pythonanywhere.com/pedidos/' + producto;
                     var options = {
